@@ -1,6 +1,7 @@
+package edu.gui.sintaxejava;
 public class MinhaClasse {
-    
-    public static void main (String [] args) {
+
+    public static void main(String[] args) {
         
         String primeiroNome = "Guilherme";
         String segundoNome = "Bifani";
@@ -14,3 +15,4 @@ public class MinhaClasse {
         return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
 }
 }
+
