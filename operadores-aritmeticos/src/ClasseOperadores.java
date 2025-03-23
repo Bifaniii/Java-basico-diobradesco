@@ -1,6 +1,10 @@
 public class ClasseOperadores {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+       String nomeCompleto = "Guilherme" + "Bifani";
+        int x = 4 + 8;
+
+        System.out.println(x);
+        System.out.println(nomeCompleto);
     }
 }
 
@@ -11,3 +15,13 @@ public class ClasseOperadores {
 /// chat sexo = 'M';
 /// boolean doadorOrgao = false;
 /// Date dataNascimento = new Date();
+/// 
+/// soma = 1 + 1 ---------------------> Quando utilizado este operador entre duas variáveis de tipo String, irá concatenar.
+/// subtracao = 1-1
+/// multiplicacao = 1*1
+/// divisao = 1/1
+/// modulo = 1 % 1
+/// exemplo:
+/// double resultado = (10 * 7) + (20 / 4)
+/// 
+/// A partir do momento em que é detectado um caracter, o sistema deixa de fazer soma e passa a realizar concatenação
