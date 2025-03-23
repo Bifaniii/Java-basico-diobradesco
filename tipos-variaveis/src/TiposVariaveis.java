@@ -34,3 +34,6 @@ public class TiposVariaveis {
 // short numeroCurto = 1;
 // int numeroNormal = numeroCurto;
 // short numeroCurto2 = (short) numeroNormal;
+
+// Constante = o valor não muda, então utilizamos "final" antes da declaração do tipo da variável
+// Ex.: final double VALOR_DE_PI = 3.14;
