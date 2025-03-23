@@ -17,7 +17,7 @@ public class OperadoresUnarios {
         System.out.println(numero);
 
         boolean variavel = true;
-                                        // PARA INVERTER BOOLEANS
+//                                         PARA INVERTER BOOLEANS
         variavel = !variavel;
         System.out.println(variavel);
     
