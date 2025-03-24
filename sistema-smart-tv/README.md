@@ -12,11 +12,12 @@ Este é um projeto simples que simula o funcionamento básico de uma Smart TV, d
 - Mudar de canal  
 
 ## 📂 Estrutura do Projeto  
+```bash
 sistema-smart-tv
-│── 📂 src
-│ ├── 📜 SmartTv.java (Lógica da Smart TV)
-│ ├── 📜 Usuario.java (Classe principal)
-
+├── src
+│   ├── SmartTv.java  (Lógica da Smart TV)
+│   ├── Usuario.java  (Classe principal)
+```
 ## Como executar  
 1. Clone o repositório:  
    ```sh
