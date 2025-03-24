@@ -1,4 +1,5 @@
 public class OperadoresRelacionais {
+    @SuppressWarnings("StringEquality")
     public static void main(String[] args) {
         int numero1 = 1;
         int numero2 = 2;
@@ -24,6 +25,7 @@ public class OperadoresRelacionais {
 //                                                 --> Se fosse String nomeDois = new "Guilherme"; resultaria false porque há 2 objetos na memória.
 //                                                     Portanto, neste caso o melhor seria utilizar o método equals(), que compara dois conteúdos
         String nomeTres = "Bifani";
+        @SuppressWarnings("RedundantStringConstructorCall") // ----> ISSO DAQUI É SÓ PARA O VSCODE N FICAR ENCHENDO OS SACO
         String nomeQuatro = new String("Bifani");
         
         System.out.println(nomeTres.equals(nomeQuatro)); // --> Desta forma, retorna verdadeiro porque o método equals analisa o conteúdo de objetos
