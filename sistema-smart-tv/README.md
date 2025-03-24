@@ -1,18 +1,27 @@
-## Getting Started
+# 📺 Sistema Smart TV simpeles - Java  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples que simula o funcionamento básico de uma Smart TV, desenvolvido como parte do curso da DIO.  
 
-## Folder Structure
+## Tecnologias utilizadas  
+- Java  
+- VS Code  
 
-The workspace contains two folders by default, where:
+## 📌 Funcionalidades  
+- Ligar e desligar a TV  
+- Aumentar e diminuir volume  
+- Mudar de canal  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📂 Estrutura do Projeto  
+📂 sistema-smart-tv
+┣ 📂 src
+┃ ┣ 📜 SmartTv.java (Lógica da Smart TV)
+┃ ┣ 📜 Usuario.java (Classe principal)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Como executar  
+1. Clone o repositório:  
+   ```sh
+   git clone https://github.com/Bifaniii/Java-basico-diobradesco.git
+   https://github.com/Bifaniii/Java-basico-diobradesco/tree/main/sistema-smart-tv
+2. Abra no VS Code ou outra IDE Java.
+3. Compile e execute a classe Usuario.java.
