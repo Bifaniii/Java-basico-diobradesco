@@ -12,11 +12,10 @@ Este é um projeto simples que simula o funcionamento básico de uma Smart TV, d
 - Mudar de canal  
 
 ## 📂 Estrutura do Projeto  
-📂 sistema-smart-tv
-┣ 📂 src
-┃ ┣ 📜 SmartTv.java (Lógica da Smart TV)
-┃ ┣ 📜 Usuario.java (Classe principal)
-
+sistema-smart-tv
+│── 📂 src
+│ ├── 📜 SmartTv.java (Lógica da Smart TV)
+│ ├── 📜 Usuario.java (Classe principal)
 
 ## Como executar  
 1. Clone o repositório:  
